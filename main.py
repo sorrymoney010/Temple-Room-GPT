@@ -1,5 +1,10 @@
 import streamlit as st
-from bots import yearn_claim, faucets, odysee, captcha, surveys, blockchain
+import yearn_claim
+import faucets
+import odysee
+import captcha
+import surveys
+import blockchain
 import time
 
 st.set_page_config(page_title="Karmic Bot Farm - Complete", layout="wide")
